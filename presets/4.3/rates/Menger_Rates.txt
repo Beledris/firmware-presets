@@ -1,0 +1,23 @@
+#$ TITLE: Lars Menger rates
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: freestyle
+#$ AUTHOR: Lars Menger
+#$ DESCRIPTION: Freestyle rates with 750 deg/sec for roll/pitch and 650 deg/sec for yaw.
+#$ DESCRIPTION:
+#$ DESCRIPTION:
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/94
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+
+
+set rates_type = ACTUAL
+set roll_rc_rate = 20
+set pitch_rc_rate = 20
+set yaw_rc_rate = 20
+set roll_expo = 54
+set pitch_expo = 54
+set yaw_expo = 54
+set roll_srate = 75
+set pitch_srate = 75
+set yaw_srate = 65
